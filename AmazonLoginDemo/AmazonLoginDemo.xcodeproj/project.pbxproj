@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DDD8097CFEC745576D12DE6 /* Pods_AmazonLoginDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB375D0C30F1D766C062FC6 /* Pods_AmazonLoginDemoTests.framework */; };
+		7453D6852021DFFA0012C76E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7453D6842021DFFA0012C76E /* GoogleService-Info.plist */; };
+		7453D6882021FD710012C76E /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7453D6872021FD710012C76E /* awsconfiguration.json */; };
+		746132AA202082170049A508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746132A9202082170049A508 /* AppDelegate.swift */; };
+		746132AC202082170049A508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746132AB202082170049A508 /* ViewController.swift */; };
+		746132AF202082170049A508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746132AD202082170049A508 /* Main.storyboard */; };
+		746132B1202082170049A508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746132B0202082170049A508 /* Assets.xcassets */; };
+		746132B4202082170049A508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746132B2202082170049A508 /* LaunchScreen.storyboard */; };
+		746132BF202082170049A508 /* AmazonLoginDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746132BE202082170049A508 /* AmazonLoginDemoTests.swift */; };
+		746132CA202082170049A508 /* AmazonLoginDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746132C9202082170049A508 /* AmazonLoginDemoUITests.swift */; };
+		746132D8202082830049A508 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 746132D7202082830049A508 /* awsconfiguration.json */; };
+		746132E2202099DF0049A508 /* AmazonLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746132E1202099DF0049A508 /* AmazonLoginViewController.swift */; };
+		8FD1BA0695A6B077EAA2748B /* Pods_AmazonLoginDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A324FE887E99E38EAFB699B /* Pods_AmazonLoginDemo.framework */; };
+		A8D533EB20F30C3F7BE1870E /* Pods_AmazonLoginDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A094C3BF2232C487CD5EE6 /* Pods_AmazonLoginDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		746132BB202082170049A508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7461329E202082170049A508 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746132A5202082170049A508;
+			remoteInfo = AmazonLoginDemo;
+		};
+		746132C6202082170049A508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7461329E202082170049A508 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746132A5202082170049A508;
+			remoteInfo = AmazonLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EA918177164CC6B7C442247 /* Pods-AmazonLoginDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonLoginDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmazonLoginDemoUITests/Pods-AmazonLoginDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2678CEC0DAC8380FC69B37E9 /* Pods-AmazonLoginDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonLoginDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmazonLoginDemoTests/Pods-AmazonLoginDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		34ABFDE92E16095C5F3F9ECD /* Pods-AmazonLoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonLoginDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmazonLoginDemo/Pods-AmazonLoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		45C207C7B4AFEB5E9D980D82 /* Pods-AmazonLoginDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonLoginDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmazonLoginDemoTests/Pods-AmazonLoginDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7453D6842021DFFA0012C76E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7453D6862021E1CB0012C76E /* AmazonLoginDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmazonLoginDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		7453D6872021FD710012C76E /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		746132A6202082170049A508 /* AmazonLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746132A9202082170049A508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		746132AB202082170049A508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		746132AE202082170049A508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		746132B0202082170049A508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746132B3202082170049A508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746132B5202082170049A508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746132BA202082170049A508 /* AmazonLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		746132BE202082170049A508 /* AmazonLoginDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonLoginDemoTests.swift; sourceTree = "<group>"; };
+		746132C0202082170049A508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746132C5202082170049A508 /* AmazonLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazonLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		746132C9202082170049A508 /* AmazonLoginDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonLoginDemoUITests.swift; sourceTree = "<group>"; };
+		746132CB202082170049A508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746132D7202082830049A508 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		746132E1202099DF0049A508 /* AmazonLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonLoginViewController.swift; sourceTree = "<group>"; };
+		8FB375D0C30F1D766C062FC6 /* Pods_AmazonLoginDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmazonLoginDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A324FE887E99E38EAFB699B /* Pods_AmazonLoginDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmazonLoginDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE7F763A9FE524A32C3FBEB /* Pods-AmazonLoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonLoginDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmazonLoginDemo/Pods-AmazonLoginDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E1A094C3BF2232C487CD5EE6 /* Pods_AmazonLoginDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmazonLoginDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DF072FDA06376A1F17F023 /* Pods-AmazonLoginDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonLoginDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmazonLoginDemoUITests/Pods-AmazonLoginDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		746132A3202082170049A508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD1BA0695A6B077EAA2748B /* Pods_AmazonLoginDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746132B7202082170049A508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDD8097CFEC745576D12DE6 /* Pods_AmazonLoginDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746132C2202082170049A508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D533EB20F30C3F7BE1870E /* Pods_AmazonLoginDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6323BA3FC0AD7C233F35C688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A324FE887E99E38EAFB699B /* Pods_AmazonLoginDemo.framework */,
+				8FB375D0C30F1D766C062FC6 /* Pods_AmazonLoginDemoTests.framework */,
+				E1A094C3BF2232C487CD5EE6 /* Pods_AmazonLoginDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7461329D202082170049A508 = {
+			isa = PBXGroup;
+			children = (
+				746132A8202082170049A508 /* AmazonLoginDemo */,
+				746132BD202082170049A508 /* AmazonLoginDemoTests */,
+				746132C8202082170049A508 /* AmazonLoginDemoUITests */,
+				746132A7202082170049A508 /* Products */,
+				F844349D99A541C1C411E68D /* Pods */,
+				6323BA3FC0AD7C233F35C688 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		746132A7202082170049A508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				746132A6202082170049A508 /* AmazonLoginDemo.app */,
+				746132BA202082170049A508 /* AmazonLoginDemoTests.xctest */,
+				746132C5202082170049A508 /* AmazonLoginDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		746132A8202082170049A508 /* AmazonLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7453D6862021E1CB0012C76E /* AmazonLoginDemo-Bridging-Header.h */,
+				746132A9202082170049A508 /* AppDelegate.swift */,
+				746132E1202099DF0049A508 /* AmazonLoginViewController.swift */,
+				746132AB202082170049A508 /* ViewController.swift */,
+				746132AD202082170049A508 /* Main.storyboard */,
+				746132B0202082170049A508 /* Assets.xcassets */,
+				746132B2202082170049A508 /* LaunchScreen.storyboard */,
+				7453D6842021DFFA0012C76E /* GoogleService-Info.plist */,
+				7453D6872021FD710012C76E /* awsconfiguration.json */,
+				746132B5202082170049A508 /* Info.plist */,
+			);
+			path = AmazonLoginDemo;
+			sourceTree = "<group>";
+		};
+		746132BD202082170049A508 /* AmazonLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				746132BE202082170049A508 /* AmazonLoginDemoTests.swift */,
+				746132C0202082170049A508 /* Info.plist */,
+			);
+			path = AmazonLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		746132C8202082170049A508 /* AmazonLoginDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				746132D7202082830049A508 /* awsconfiguration.json */,
+				746132C9202082170049A508 /* AmazonLoginDemoUITests.swift */,
+				746132CB202082170049A508 /* Info.plist */,
+			);
+			path = AmazonLoginDemoUITests;
+			sourceTree = "<group>";
+		};
+		F844349D99A541C1C411E68D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34ABFDE92E16095C5F3F9ECD /* Pods-AmazonLoginDemo.debug.xcconfig */,
+				DBE7F763A9FE524A32C3FBEB /* Pods-AmazonLoginDemo.release.xcconfig */,
+				45C207C7B4AFEB5E9D980D82 /* Pods-AmazonLoginDemoTests.debug.xcconfig */,
+				2678CEC0DAC8380FC69B37E9 /* Pods-AmazonLoginDemoTests.release.xcconfig */,
+				E7DF072FDA06376A1F17F023 /* Pods-AmazonLoginDemoUITests.debug.xcconfig */,
+				0EA918177164CC6B7C442247 /* Pods-AmazonLoginDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		746132A5202082170049A508 /* AmazonLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746132CE202082170049A508 /* Build configuration list for PBXNativeTarget "AmazonLoginDemo" */;
+			buildPhases = (
+				46DE47252AB2D5CF6B2A018E /* [CP] Check Pods Manifest.lock */,
+				746132A2202082170049A508 /* Sources */,
+				746132A3202082170049A508 /* Frameworks */,
+				746132A4202082170049A508 /* Resources */,
+				511D3897DD3FCCECF6FC8A25 /* [CP] Embed Pods Frameworks */,
+				590027D1D6A7874922C66134 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazonLoginDemo;
+			productName = AmazonLoginDemo;
+			productReference = 746132A6202082170049A508 /* AmazonLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		746132B9202082170049A508 /* AmazonLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746132D1202082170049A508 /* Build configuration list for PBXNativeTarget "AmazonLoginDemoTests" */;
+			buildPhases = (
+				594E6EB067B9E15146FD586A /* [CP] Check Pods Manifest.lock */,
+				746132B6202082170049A508 /* Sources */,
+				746132B7202082170049A508 /* Frameworks */,
+				746132B8202082170049A508 /* Resources */,
+				34558454A79B89F18890F0F7 /* [CP] Embed Pods Frameworks */,
+				4EE58FABB371B701A34954E8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746132BC202082170049A508 /* PBXTargetDependency */,
+			);
+			name = AmazonLoginDemoTests;
+			productName = AmazonLoginDemoTests;
+			productReference = 746132BA202082170049A508 /* AmazonLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		746132C4202082170049A508 /* AmazonLoginDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746132D4202082170049A508 /* Build configuration list for PBXNativeTarget "AmazonLoginDemoUITests" */;
+			buildPhases = (
+				284E9D9E7D039CF3EC09424E /* [CP] Check Pods Manifest.lock */,
+				746132C1202082170049A508 /* Sources */,
+				746132C2202082170049A508 /* Frameworks */,
+				746132C3202082170049A508 /* Resources */,
+				D0B287218C1A8590E0A479AB /* [CP] Embed Pods Frameworks */,
+				C0ACE0218982E8888DB090E8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746132C7202082170049A508 /* PBXTargetDependency */,
+			);
+			name = AmazonLoginDemoUITests;
+			productName = AmazonLoginDemoUITests;
+			productReference = 746132C5202082170049A508 /* AmazonLoginDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7461329E202082170049A508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GlobalLogic;
+				TargetAttributes = {
+					746132A5202082170049A508 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					746132B9202082170049A508 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 746132A5202082170049A508;
+					};
+					746132C4202082170049A508 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 746132A5202082170049A508;
+					};
+				};
+			};
+			buildConfigurationList = 746132A1202082170049A508 /* Build configuration list for PBXProject "AmazonLoginDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7461329D202082170049A508;
+			productRefGroup = 746132A7202082170049A508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				746132A5202082170049A508 /* AmazonLoginDemo */,
+				746132B9202082170049A508 /* AmazonLoginDemoTests */,
+				746132C4202082170049A508 /* AmazonLoginDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		746132A4202082170049A508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7453D6882021FD710012C76E /* awsconfiguration.json in Resources */,
+				746132B4202082170049A508 /* LaunchScreen.storyboard in Resources */,
+				7453D6852021DFFA0012C76E /* GoogleService-Info.plist in Resources */,
+				746132B1202082170049A508 /* Assets.xcassets in Resources */,
+				746132AF202082170049A508 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746132B8202082170049A508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746132C3202082170049A508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746132D8202082830049A508 /* awsconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		284E9D9E7D039CF3EC09424E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmazonLoginDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34558454A79B89F18890F0F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmazonLoginDemoTests/Pods-AmazonLoginDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46DE47252AB2D5CF6B2A018E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmazonLoginDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EE58FABB371B701A34954E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmazonLoginDemoTests/Pods-AmazonLoginDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		511D3897DD3FCCECF6FC8A25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AmazonLoginDemo/Pods-AmazonLoginDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSFacebookSignIn/AWSFacebookSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSGoogleSignIn/AWSGoogleSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSFacebookSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSGoogleSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmazonLoginDemo/Pods-AmazonLoginDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		590027D1D6A7874922C66134 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AmazonLoginDemo/Pods-AmazonLoginDemo-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmazonLoginDemo/Pods-AmazonLoginDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		594E6EB067B9E15146FD586A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmazonLoginDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0ACE0218982E8888DB090E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmazonLoginDemoUITests/Pods-AmazonLoginDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0B287218C1A8590E0A479AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmazonLoginDemoUITests/Pods-AmazonLoginDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		746132A2202082170049A508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746132AC202082170049A508 /* ViewController.swift in Sources */,
+				746132AA202082170049A508 /* AppDelegate.swift in Sources */,
+				746132E2202099DF0049A508 /* AmazonLoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746132B6202082170049A508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746132BF202082170049A508 /* AmazonLoginDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746132C1202082170049A508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746132CA202082170049A508 /* AmazonLoginDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		746132BC202082170049A508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 746132A5202082170049A508 /* AmazonLoginDemo */;
+			targetProxy = 746132BB202082170049A508 /* PBXContainerItemProxy */;
+		};
+		746132C7202082170049A508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 746132A5202082170049A508 /* AmazonLoginDemo */;
+			targetProxy = 746132C6202082170049A508 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		746132AD202082170049A508 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746132AE202082170049A508 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		746132B2202082170049A508 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746132B3202082170049A508 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		746132CC202082170049A508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		746132CD202082170049A508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		746132CF202082170049A508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34ABFDE92E16095C5F3F9ECD /* Pods-AmazonLoginDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globallogic.AmazonLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		746132D0202082170049A508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE7F763A9FE524A32C3FBEB /* Pods-AmazonLoginDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globallogic.AmazonLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		746132D2202082170049A508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C207C7B4AFEB5E9D980D82 /* Pods-AmazonLoginDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globallogic.AmazonLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazonLoginDemo.app/AmazonLoginDemo";
+			};
+			name = Debug;
+		};
+		746132D3202082170049A508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2678CEC0DAC8380FC69B37E9 /* Pods-AmazonLoginDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globallogic.AmazonLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazonLoginDemo.app/AmazonLoginDemo";
+			};
+			name = Release;
+		};
+		746132D5202082170049A508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7DF072FDA06376A1F17F023 /* Pods-AmazonLoginDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globallogic.AmazonLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmazonLoginDemo;
+			};
+			name = Debug;
+		};
+		746132D6202082170049A508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA918177164CC6B7C442247 /* Pods-AmazonLoginDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AmazonLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.globallogic.AmazonLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmazonLoginDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		746132A1202082170049A508 /* Build configuration list for PBXProject "AmazonLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746132CC202082170049A508 /* Debug */,
+				746132CD202082170049A508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746132CE202082170049A508 /* Build configuration list for PBXNativeTarget "AmazonLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746132CF202082170049A508 /* Debug */,
+				746132D0202082170049A508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746132D1202082170049A508 /* Build configuration list for PBXNativeTarget "AmazonLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746132D2202082170049A508 /* Debug */,
+				746132D3202082170049A508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746132D4202082170049A508 /* Build configuration list for PBXNativeTarget "AmazonLoginDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746132D5202082170049A508 /* Debug */,
+				746132D6202082170049A508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7461329E202082170049A508 /* Project object */;
+}
